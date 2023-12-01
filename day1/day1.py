@@ -57,7 +57,7 @@ def part2(data):
     print(sum(result))
 
 if __name__ == "__main__":
-    data = np.loadtxt('day1_input.txt',dtype=str)
+    data = np.loadtxt('day1/day1_input.txt',dtype=str)
     
     part1(data)
     part2(data)
